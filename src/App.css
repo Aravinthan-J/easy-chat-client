@@ -148,26 +148,37 @@
   margin-bottom: 28px;
 }
 
-.SenderMessage,
-.ReceiverMessage {
+.SenderSide,
+.ReceiverSide{
   position: absolute;
   max-width: 330px;
+}
+
+.SenderSide{
+  right: 0;
+}
+
+.ReceiverSide{
+  left: 0;
+}
+
+.SenderMessage,
+.ReceiverMessage {
   padding: 12px;
   border-radius: 10px;
   box-shadow: 0 1px 2px #00000063;
   border: 1px solid #2196f3bf;
   word-break: break-all;
+  margin-bottom: 8px;
 }
 
 .SenderMessage {
   border-bottom-right-radius: 0px;
-  right: 0;
   background: #2196f375;
 }
 
 .ReceiverMessage {
   border-bottom-left-radius: 0px;
-  left: 0;
   background: white;
 }
 
